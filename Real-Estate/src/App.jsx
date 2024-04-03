@@ -1,11 +1,13 @@
-
+import './layout.scss'
 
 function App() {
    
 
   return (
     <>
-     <div className="app">hello</div>
+     <div className="layout">
+      <a href="">hello</a>
+     </div>
     </>
   )
 }
