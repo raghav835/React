@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar'
 import './layout.scss'
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
      <div className="layout">
-      <a href="">hello</a>
+      <Navbar/>
      </div>
     </>
   )
