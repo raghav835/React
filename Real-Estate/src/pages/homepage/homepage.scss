@@ -1,0 +1,46 @@
+.homepage{
+    display: flex;
+    height: 100%;
+
+    .textcontainer{
+        flex: 3;
+        
+         
+        .wrapper{
+            padding-right: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+            height: 100%;
+           
+             
+        }
+        .title{
+            font-size: 64px;
+        }
+
+        .boxes{
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+    .imgcontainer{
+        flex: 2;
+        background-color: antiquewhite;
+        position: relative;
+        display: flex;
+        align-items: center;
+        
+        img{
+            width: 110%;
+            right: 0;
+            position: absolute;
+        }
+    }
+   
+}
